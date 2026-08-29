@@ -37,9 +37,7 @@ import os
 
 load_dotenv()
 
-client = InferenceClient(
-    api_key=os.getenv("HUGGINGFACEHUB_ACCESS_TOKEN")
-)
+client = InferenceClient()
 
 documents = [
 

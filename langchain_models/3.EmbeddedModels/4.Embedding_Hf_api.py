@@ -1,29 +1,9 @@
-# from huggingface_hub import InferenceClient
-# from dotenv import load_dotenv
-# import os
-
-# load_dotenv()
-
-# client = InferenceClient(
-#     api_key=os.getenv("HF_TOKEN")
-# )
-
-# text = "Delhi is capital of India"
-
-# vector = client.feature_extraction(
-#     text,
-#     model="sentence-transformers/all-MiniLM-L6-v2"
-# )
-
-# print(vector)
-
 from huggingface_hub import InferenceClient
 from dotenv import load_dotenv
-import os
 
 load_dotenv()
 
-client = InferenceClient(api_key=os.getenv("HUGGINGFACEHUB_ACCESS_TOKEN"))
+client = InferenceClient()
 
 documents = [
     "Delhi is the capital of India",

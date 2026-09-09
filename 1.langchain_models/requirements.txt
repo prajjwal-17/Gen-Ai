@@ -27,3 +27,6 @@ scikit-learn
 torch
 sentence-transformers
 streamlit
+pypdf
+bs4
+requests

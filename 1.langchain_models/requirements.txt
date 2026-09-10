@@ -30,3 +30,5 @@ streamlit
 pypdf
 bs4
 requests
+langchain-text-splitters
+langchain_experimental
